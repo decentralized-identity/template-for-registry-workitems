@@ -1,10 +1,10 @@
-Template for a Profile
+Template for a Registry Document
 ==================
 
-**Profile Status:** Draft
+**Registry Status:** Proposed
 
 **Latest Draft:**
-  [https://identity.foundation/<profile-name>](https://identity.foundation/<profile-name>)
+  [https://identity.foundation/<registry-name>](https://identity.foundation/<registry-name>)
 
 Editors:
 ~ [<Each editor's plain text name>]([Company](https://example.com))
@@ -21,52 +21,57 @@ Participate:
 
 ## Abstract
 
-The abstract of the profile. What context created it, what precedents or design goals should the reader know about.
+The abstract of the registry. What context created it, what precedents or design
+goals should the reader know about.
 
 ### Audience
 
-Who is the audience for this document.
+Who is the audience for this document, and what can they trust/assume about the
+document?
 
 ## Status of This Document
 
-The status of the profile e.g. <profile-name> v1.0.0 is a PRE-DRAFT specification under development within the Decentralized Identity Foundation (DIF).
+The status of the registry e.g. <registry-name> v1.0.0 is a PRE-DRAFT
+specification under development within the Decentralized Identity Foundation
+(DIF).
 
-### Description
+NOTE: Until working group chairs have approved a registry (all fields complete
+and detailed, registry structured, instructions for new entries written), the
+status of a registry is PROPOSED.  Working Group chairs may escalate to the DIF
+Steering Committee if they disagree about the readiness of a registry
+definition, or if they are concerned about the implications of DIF approving
+registry as-is.  Once approved, a registry is ACTIVE at long as it has one or
+more responsible code-owners managing new PRs; working group chairs may switch a
+registry to ARCHIVED or HIBERNATED if this stops being the case.
 
-Include a description of the profile. A table or diagram to explain the layering model is always helpful!
+### Dependencies
 
-### Scope 
+Any upstream dependencies or specifications defining terminology used in what
+follows should be listed to make more objective any judgments (particularly
+about conformance or interoperability) implied by presence in the registry. Be
+explicit about conformance testing (and versions thereof), for example, where
+[verisoned] conformance tests have been published.
 
-What is in the scope of the profile and what falls outside of the scope of the profile.  If this work is being conducted without IP protection, it is advised that any IP-sensitive topics and original work, including in-detail discussion of "upstream" PRs and change requests (i.e., changes to items on which this profile *depends*, whether in DIF or not) be put out of scope.
+### Structure of the Registry 
 
-## Structure of this Document
+Define each "column" of the registry (if a matrix) or "requirements" (if in
+paragraph or other narrative form). Explain all answers that would be acceptable
+in a PR for each property (ENUM notation, i.e. `{ opt1 | opt2 } is fine), and
+where possible, anchors or upstream definitions to make each column as objective
+or factual as possible.
 
-A description to the reader on how the document is structured.
+Tip: if there are constraints or recommendations about URLs, spell them out.
 
-## Terminology
+### Additional Instructions for Registrants
 
-List of terms which appear in the profile, preferably with links to published definitions for major items.
+I.e., "avoid X" or "please include A B and C in your PR description".
 
-## Profile 
+### Conditions for Rejection or Removal
 
-Put the profile here and structure as is deemed fit. 
+Spell out out-of-scope or unacceptable entries (beyond the per-column guidance
+above) and, if maintainers want to reserve the right to reject or remove,
+explicitly state conditions for same. 
 
-## Use-Cases
+## Registry 
 
-Defining or referring to previously published use cases which this profile enables and supports is highly recommended.
-
-## Examples
-
-Embedded or referenced non-normative examples 
-
-## Implementations
-
-References to known conformant implementations, whether intended as reference implementation or otherwise.
-
-## Test Vectors 
-
-Embedded or referenced test vectors.
-
-## Test Suite
-
-Embedded or referenced test suites.
+Put the registry here and structure as is deemed fit. 
