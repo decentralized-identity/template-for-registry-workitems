@@ -7,10 +7,10 @@ Template for a Registry Document
   [https://identity.foundation/<registry-name>](https://identity.foundation/<registry-name>)
 
 Editors:
-~ [<Each editor's plain text name>]([Company](https://example.com))
+~ <Each editor's plain text name>([Company](https://example.com), @{github handle})
 
 Contributors:
-~ [<Each contributor's plain text name>]([Company](https://example.com))
+~ <Each contributor's plain text name>([Company](https://example.com), @{github handle})
 
 Participate:
 ~ [GitHub repo](https://github.com/decentralized-identity/<profile-name>)
